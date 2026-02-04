@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5035877</BlastOutput_query-ID>
+  <BlastOutput_query-def>tr|A0A0A8X4J6|A0A0A8X4J6_MESS1 Hypothetical cytosolic protein OS=Mesobacillus selenatarsenatis (strain DSM 18680 / JCM 14380 / FERM P-15431 / SF-1) OX=1321606 GN=SAMD00020551_3039 PE=4 SV=1</BlastOutput_query-def>
+  <BlastOutput_query-len>201</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5035877</Iteration_query-ID>
+  <Iteration_query-def>tr|A0A0A8X4J6|A0A0A8X4J6_MESS1 Hypothetical cytosolic protein OS=Mesobacillus selenatarsenatis (strain DSM 18680 / JCM 14380 / FERM P-15431 / SF-1) OX=1321606 GN=SAMD00020551_3039 PE=4 SV=1</Iteration_query-def>
+  <Iteration_query-len>201</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_041966589.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus selenatarsenatis] &gt;dbj|GAM14885.1| hypothetical cytosolic protein [Mesobacillus selenatarsenatis SF-1]</Hit_def>
+  <Hit_accession>WP_041966589</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>409.838</Hsp_bit-score>
+      <Hsp_score>1052</Hsp_score>
+      <Hsp_evalue>7.74624e-144</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_hseq>
+      <Hsp_midline>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_023614736.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus boroniphilus] &gt;gb|ESU33220.1| hypothetical protein G3A_07560 [Bacillus sp. 17376] &gt;dbj|GAE44479.1| cytosolic protein [Mesobacillus boroniphilus JCM 21738]</Hit_def>
+  <Hit_accession>WP_023614736</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>7.95206e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MKWKKLFGFGKSKEIEFEVEQSGISQEALAMVKRSINGKIHPFYKMDLYTEKPADIAGIYVEVKQEEADRLVLKLKEELKSINYLAFICDSDHQKIGIIPGSDQFDIIRVQQTNGDNYDISNERVISKLKEWYRRYPFIIIGADYDWVEANFEVFPEGKALRVFATEIYKFCPDIVEQGSGSINGLVEEMRETMKLILWWD</Hsp_hseq>
+      <Hsp_midline>M WKKLF FG+SKE EF VEQSGISQEALA+VKRSING+IHPFYK+DLYTEKPA+I GI VE KQE+A++LVLKLKE+LKSINYL FIC+SD +KIGIIPGSDQFDI+RVQQTNGDNYDISNE+VISKLK+WYRRYPFIIIGADYDWVEANFEVFPEGKAL+ FA EIYKFCPDIVEQGSGSINGL+EEM ET KL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_214902340.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. ISL-55] &gt;gb|MBT2691602.1| DUF4253 domain-containing protein [Bacillus sp. ISL-55]</Hit_def>
+  <Hit_accession>WP_214902340</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.295</Hsp_bit-score>
+      <Hsp_score>913</Hsp_score>
+      <Hsp_evalue>1.37605e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKRLFSVGRSKETEFKVEQSGISQEALVIVRSSINGRIHPFYKVDLYTEKQADLVGICVEVKQEEAEQLVLNLKEELKSIDYQAFICDSNHEKIAIIPGSDQFDILRFQQTNGDNYDISNERVISKLKDWYRRYPFIIIGSDYDWIEANFEVFPEGKALKAFATEIYKFCPDIVEQGSGSINGLIEEMRETRKLILWWD</Hsp_hseq>
+      <Hsp_midline>M WK+LF+ GRSKETEF VEQSGISQEAL IV+ SINGRIHPFYKVDLYTEK A++ GICVE KQE+AEQLVL LKE+LKSI+Y  FIC+S+ EKI IIPGSDQFDILR QQTNGDNYDISNE+VISKLKDWYRRYPFIIIG+DYDW+EANFEVFPEGKALKAFA EIYKFCPDIVEQGSGSINGLIEEM ETRKL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_213367174.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus boroniphilus] &gt;gb|MBS8263622.1| DUF4253 domain-containing protein [Mesobacillus boroniphilus]</Hit_def>
+  <Hit_accession>WP_213367174</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>5.72946e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKRLISFGRNKENEFKMDQSGISQEVLTIVKGNTNGRLLPFYKKDMYTEKSAEVAGICVEVKPEEADQLVLTLREELEPVNYLAFICDSDREKIGIIPGSEQFDILKLQQTNGDNYDISNERVISKLKEWNRSYPFIIIGADYDWVEANFEVFPEGDDLKEFVKKIYKFCPDIVEQGSGSINGLIEEMRETRKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M WK+L +FGR+KE EF ++QSGISQE L IVK + NGR+ PFYK D+YTEK AE+ GICVE K E+A+QLVL L+E+L+ +NYL FIC+SDREKIGIIPGS+QFDIL++QQTNGDNYDISNE+VISKLK+W R YPFIIIGADYDWVEANFEVFPEG  LK F K+IYKFCPDIVEQGSGSINGLIEEM ETRKLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_226601327.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus subterraneus] &gt;gb|WLR57532.1| DUF4253 domain-containing protein [Mesobacillus subterraneus]</Hit_def>
+  <Hit_accession>WP_226601327</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>6.89985e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKNIFSFGRSKETEFKLEQSGISDEALEIIKRNINGRLQPFYKSNLYTDNPPEIAGICLAVNQDEAEPIVLKLMEELKSINYLPFICESDREKIAIMPGSDQFDILKLQQTNGDNYEINNDMVISKLKEWNRRYPFKIIGGDYDWVEANFETFPQRGDLKAIAKEIYNFCPDIVEQGSGSINGLIEEMKETRKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M WK +F+FGRSKETEF +EQSGIS EAL I+KR+INGR+ PFYK +LYT+ P EI GIC+   Q++AE +VLKL E+LKSINYLPFICESDREKI I+PGSDQFDIL++QQTNGDNY+I+N+ VISKLK+W RRYPF IIG DYDWVEANFE FP+   LKA AKEIY FCPDIVEQGSGSINGLIEEM+ETRKLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_251613088.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus subterraneus] &gt;gb|MCM3572613.1| DUF4253 domain-containing protein [Mesobacillus subterraneus]</Hit_def>
+  <Hit_accession>WP_251613088</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>1.64962e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLLSFGKSTKNETNIEKCGISEKAMAIVKRNTDGKLQPFYKGDLYTEKNVEIAGICVEAKQAEAEQLVLRLMEELEAINYLAFICDSEREKIAIIPGSDQFEILKLQQTNGDNYDISNERVLSQLKYWHRSYPFTIIGADYDWVEANFDVFPEGKELKALARELAEFCPDIVEQGTRSINGLIEEITETKKMYLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKL +FG+S + E  +E+ GIS++A+AIVKR+ +G++ PFYK DLYTEK  EI GICVEAKQ +AEQLVL+L E+L++INYL FIC+S+REKI IIPGSDQF+IL++QQTNGDNYDISNE+V+S+LK W+R YPF IIGADYDWVEANF+VFPEGK LKA A+E+ +FCPDIVEQG+ SINGLIEE+ ET+K+YLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_214737787.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. ISL-41] &gt;gb|MBT2642409.1| DUF4253 domain-containing protein [Bacillus sp. ISL-41]</Hit_def>
+  <Hit_accession>WP_214737787</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>1.96578e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLLGFGKSKENDINIEKCGISEKAMTIVKRNMDGKLHPFYKGDLYTEKRVEIVGICVEAIQAEAEQLVLKLREELKAINYLAFICESEREKIAIIPGSDQFEILRLQQTNGDNYDISNDRVISKLKEWHRSYPFTIIGADYDWVEAKIEVLPKGKELNAFAREIAQFCPDIVDQGTGSIKGLIQEINESKKLYFWWD</Hsp_hseq>
+      <Hsp_midline>M WKKL  FG+SKE +  +E+ GIS++A+ IVKR+++G++HPFYK DLYTEK  EI GICVEA Q +AEQLVLKL+E+LK+INYL FICES+REKI IIPGSDQF+ILR+QQTNGDNYDISN++VISKLK+W+R YPF IIGADYDWVEA  EV P+GK L AFA+EI +FCPDIV+QG+GSI GLI+E+ E++KLY WWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_214776893.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. ISL-45] &gt;gb|MBT2660046.1| DUF4253 domain-containing protein [Bacillus sp. ISL-45]</Hit_def>
+  <Hit_accession>WP_214776893</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>1.31729e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLLSFGKSKENNINIEKCGISEEAMTIVRRNSDGKLHPFYKGDLYTEKRVEIAGIYVDAKQAEAELLVLKLREELMAINYLAFICDSEREKIGIIPGSDQFEILQLQQTNGDNYNISNERVISKLREWHSSHPFTVIGADYDWVEANFDVLPEGKELKTLAREIAEFCPDIVEQGTGSINGLIEAITETKKMDLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKL +FG+SKE    +E+ GIS+EA+ IV+R+ +G++HPFYK DLYTEK  EI GI V+AKQ +AE LVLKL+E+L +INYL FIC+S+REKIGIIPGSDQF+IL++QQTNGDNY+ISNE+VISKL++W+  +PF +IGADYDWVEANF+V PEGK LK  A+EI +FCPDIVEQG+GSINGLIE + ET+K+ LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_215022488.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. ISL-39] &gt;gb|MBT2636960.1| DUF4253 domain-containing protein [Bacillus sp. ISL-39]</Hit_def>
+  <Hit_accession>WP_215022488</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>5.29647e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLLSFGKSKENKINIEKCGISEEAMTIVKRNSDGKLHPFYKGDLYTEKRVEIAGIYVDAKQAEAELLVLKLREELMAINYLAFICDSEREKIGIIPGSDQFEILQLQQTNGDNYNISNERVISKLREWHSSHPITVIGADYDWVEANFDVLPEGKELKTLAREIAEFCPDIVEQGTGSVNGLIEAITETKKMDLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKL +FG+SKE +  +E+ GIS+EA+ IVKR+ +G++HPFYK DLYTEK  EI GI V+AKQ +AE LVLKL+E+L +INYL FIC+S+REKIGIIPGSDQF+IL++QQTNGDNY+ISNE+VISKL++W+  +P  +IGADYDWVEANF+V PEGK LK  A+EI +FCPDIVEQG+GS+NGLIE + ET+K+ LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_226641341.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus subterraneus]</Hit_def>
+  <Hit_accession>WP_226641341</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>2.04794e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLLSYGKSKEAEIKIEDCGISAEAMTIVKRYSNSRLLPFYNQDLYSEKPVKIAGVCVKCKQDETELLALKLREELKAINYLAFICDSNREKVAMIPGPDQFEILKIQQTNGDNYEISNRSVISKLKEYYRSYPFTIIGADYDWVEVEFEVLPNGKELKAFAREIAEFCPDLVEQGTGSINDLMEEIKGTRKLSLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKL ++G+SKE E  +E  GIS EA+ IVKR  N R+ PFY  DLY+EKP +I G+CV+ KQ++ E L LKL+E+LK+INYL FIC+S+REK+ +IPG DQF+IL++QQTNGDNY+ISN  VISKLK++YR YPF IIGADYDWVE  FEV P GK LKAFA+EI +FCPD+VEQG+GSIN L+EE++ TRKL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_415802420.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus sp.] &gt;gb|MFT9600271.1| DUF4253 domain-containing protein [Mesobacillus sp.]</Hit_def>
+  <Hit_accession>WP_415802420</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>7.12167e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MVWKKLFSFGKISEKEVNLEEANFSEEALTILKRNSHSKLMPLYNTDLYSDKPGELAGICIKAKKEESEHFVLKLKEELREINYQAFICDYDHKEIGIIKGTDRFDILKVQQTHGDNYDISNENVISKLKDWHRRFPFIIIGADYDWVEISFRIMPKGKELMVLAKEIAKFCPDIMEQGTGTISGLIEEMKETGKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M+WKKLF+FG+  E E  +E++  S+EAL I+KR+ + ++ P Y  DLY++KP E+ GIC++AK+E++E  VLKLKE+L+ INY  FIC+ D ++IGII G+D+FDIL+VQQT+GDNYDISNE VISKLKDW+RR+PFIIIGADYDWVE +F + P+GK L   AKEI KFCPDI+EQG+G+I+GLIEEM+ET KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_167832952.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus selenatarsenatis] &gt;gb|NKE06542.1| DUF4253 domain-containing protein [Mesobacillus selenatarsenatis]</Hit_def>
+  <Hit_accession>WP_167832952</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>1.14057e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKKLLSFGKSKKAEIKIEECSISEEAMTIVKRYSNSRLLPFYNQDLYSEKPVKIAGVCVKCKQDETELLALKLREELKAINYLAFICDSNREKVAMIPGSDQFEILKIQQTNGDNYEISNRSVISKLKEYYRSYPFTIIDADYDWVEVEFEVLPNGKELKAFAREIAEFCPDLVEQGTGSINDLMEEIKGTRKLSLWWD</Hsp_hseq>
+      <Hsp_midline>M  KKL +FG+SK+ E  +E+  IS+EA+ IVKR  N R+ PFY  DLY+EKP +I G+CV+ KQ++ E L LKL+E+LK+INYL FIC+S+REK+ +IPGSDQF+IL++QQTNGDNY+ISN  VISKLK++YR YPF II ADYDWVE  FEV P GK LKAFA+EI +FCPD+VEQG+GSIN L+EE++ TRKL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_125478803.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus subterraneus] &gt;gb|RSD28841.1| DUF4253 domain-containing protein [Mesobacillus subterraneus]</Hit_def>
+  <Hit_accession>WP_125478803</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>2.10062e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKIFTFGRSQETEVNPEEAGISTEALSVVKQNSNSRLLPFYRTDMYTENPPELAGLKINTKEDEAEELVLKLRKELNQLGYHAFICDHERSQIAVIKGTDQMDILSVQQTNGDNYDISNEMVIKKLEEWHKKYPFTIIGADFDWVEANFIVFPGKKDLKSFAKEAYKFCPDIVEQGAGSLGELIEEMEETKKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M WKK+F FGRS+ETE   E++GIS EAL++VK++ N R+ PFY+ D+YTE P E+ G+ +  K+++AE+LVLKL+++L  + Y  FIC+ +R +I +I G+DQ DIL VQQTNGDNYDISNE VI KL++W+++YPF IIGAD+DWVEANF VFP  K LK+FAKE YKFCPDIVEQG+GS+  LIEEMEET+KLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_448976831.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus sp. LC4] &gt;gb|MGV2941263.1| DUF4253 domain-containing protein [Mesobacillus sp. LC4]</Hit_def>
+  <Hit_accession>WP_448976831</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>8.50909e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLLSYGKSKEAGIKIEECSISEEAMTIVKKHYNGQFIPFYKQELNTEKPVEMAGICAKSKQDETEMLALRLREELKAINYLAFICDSNREKVAIIPGSDQFEILKIQQTNGDNYDISNRSVISKLKEYYGIYPFTIIGADYDWVEMEFEVLPNGKELKAFAREIAEFCPDLVDQGTGSIHDLMGEIKGTRKLSLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKL ++G+SKE    +E+  IS+EA+ IVK+  NG+  PFYK +L TEKP E+ GIC ++KQ++ E L L+L+E+LK+INYL FIC+S+REK+ IIPGSDQF+IL++QQTNGDNYDISN  VISKLK++Y  YPF IIGADYDWVE  FEV P GK LKAFA+EI +FCPD+V+QG+GSI+ L+ E++ TRKL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_214706997.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. ISL-35] &gt;gb|MBT2680115.1| DUF4253 domain-containing protein [Bacillus sp. ISL-35]</Hit_def>
+  <Hit_accession>WP_214706997</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.781</Hsp_bit-score>
+      <Hsp_score>691</Hsp_score>
+      <Hsp_evalue>7.65381e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKRIFGFGRESKQDINIANIGISDEVLSIISKFTTGRLKPFYKTDLYTDKKS-VIGVCIEVKQDQAEHLVLKMREEMQELGFLPFICDSEHNKVCITQVSDQFDIIKIQQTNGDNYDITSEMVISKLKEWHHRYPFTIIGADFDWVEATFQVIPESKKLRSFATEMYKFCPDIVEQGAGSINGLMEELEESNKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M WK++F FGR  + +  +   GIS E L+I+ +   GR+ PFYK DLYT+K + + G+C+E KQ++AE LVLK++E+++ + +LPFIC+S+  K+ I   SDQFDI+++QQTNGDNYDI++E VISKLK+W+ RYPF IIGAD+DWVEA F+V PE K L++FA E+YKFCPDIVEQG+GSINGL+EE+EE+ KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_102262326.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus jeotgali]</Hit_def>
+  <Hit_accession>WP_102262326</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>9.12941e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MSWKKLFSFGKTQEKELNLDEIDFSEEALTILKTNSPSKLMPLYKTDLFFDKPGELAGICIKTRKEESEHFVLKLKEELREISYQAFICDYDHKEIGIIKGTDQFDILKVQQTNGDNYDISNEKIISKLKFWHRRFPFIIIGADYDWVEISFLIMPKSEELKVLAKEIAKFCPDIVEQGTGTISGLIEEMKETGKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKLF+FG+++E E  +++   S+EAL I+K +   ++ P YK DL+ +KP E+ GIC++ ++E++E  VLKLKE+L+ I+Y  FIC+ D ++IGII G+DQFDIL+VQQTNGDNYDISNEK+ISKLK W+RR+PFIIIGADYDWVE +F + P+ + LK  AKEI KFCPDIVEQG+G+I+GLIEEM+ET KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_226087434.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus sp. S13]</Hit_def>
+  <Hit_accession>WP_226087434</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>5.41947e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKKLLSFGKSKEAEIKIEECSISEEAMTIVKRYSNSRLLPFYNQDLYSEKPVKIAGVCVKCKQDETELLALELREELKAINYLAFICDSNREKVAMIPGLDQFEILKIQQTNGDNYDISNSSVISELKEWYRNYPFIIIGASYDWVEVEFEVLPNGKELNSFAREIAEFCPDLVEQGTGSINDLMEEIKGTRKLSLWWD</Hsp_hseq>
+      <Hsp_midline>M  KKL +FG+SKE E  +E+  IS+EA+ IVKR  N R+ PFY  DLY+EKP +I G+CV+ KQ++ E L L+L+E+LK+INYL FIC+S+REK+ +IPG DQF+IL++QQTNGDNYDISN  VIS+LK+WYR YPFIIIGA YDWVE  FEV P GK L +FA+EI +FCPD+VEQG+GSIN L+EE++ TRKL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_144475996.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillaceae] &gt;gb|MCM3123151.1| DUF4253 domain-containing protein [Mesobacillus sp. MER 33] &gt;gb|MCM3233366.1| DUF4253 domain-containing protein [Mesobacillus sp. MER 48] &gt;gb|WHX42417.1| DUF4253 domain-containing protein [Mesobacillus sp. AQ2]</Hit_def>
+  <Hit_accession>WP_144475996</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>6.24833e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKIFSIGGGSNQDSNIADLGIPDEVLSIISKFTTGKLKPFYKTDLYTDKRGEIIGVCMEVKQDQAENLVLKMRKEMEVLGFLPFICDTEHNKVCISQVSDQFDIIKIQQTNGDNYDISNEMVVSKLKEWHLRYPFTIIGADFDWVEATFQVIPDGKNLRSFATEMYKFCPDIVEQGSGSINGLMEELKESKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M WKK+F+ G     +  +   GI  E L+I+ +   G++ PFYK DLYT+K  EI G+C+E KQ++AE LVLK++++++ + +LPFIC+++  K+ I   SDQFDI+++QQTNGDNYDISNE V+SKLK+W+ RYPF IIGAD+DWVEA F+V P+GK L++FA E+YKFCPDIVEQGSGSINGL+EE++E++KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_311075543.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus jeotgali] &gt;gb|WNF24627.1| DUF4253 domain-containing protein [Mesobacillus jeotgali]</Hit_def>
+  <Hit_accession>WP_311075543</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>1.1162e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MDWKKLFSFRKSQEKELNLQEADFSKEALAIVQRNSHGKIMPFYKTDLSSDEADGLAGICIETSEKESEHLVLKLNQELQKVNYQAFICDYDQKEIGIIKGTDQFDILKVQQTNGDNCDIGNENVISKLKDWHGRYPFIIIGADYDWVEMRFQSMPKDKELKGLAKEIEKFCPDIVEQGTGTISGLIQDMKETGKLLLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKLF+F +S+E E  ++++  S+EALAIV+R+ +G+I PFYK DL +++   + GIC+E  ++++E LVLKL ++L+ +NY  FIC+ D+++IGII G+DQFDIL+VQQTNGDN DI NE VISKLKDW+ RYPFIIIGADYDWVE  F+  P+ K LK  AKEI KFCPDIVEQG+G+I+GLI++M+ET KL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_215031249.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. ISL-37] &gt;gb|MBT2682877.1| DUF4253 domain-containing protein [Bacillus sp. ISL-37]</Hit_def>
+  <Hit_accession>WP_215031249</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.69323e-85</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>VEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MEVKQEEAEPLVLKLREELKSIDYLVFICDSEREKISIIPGTDKFDILRIQQTNGNNYDISNERVISKLKEWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDLVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_hseq>
+      <Hsp_midline>+E KQE+AE LVLKL+E+LKSI+YL FIC+S+REKI IIPG+D+FDILR+QQTNG+NYDISNE+VISKLK+WYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPD+VEQGSGSINGLIEEMEETRKLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_415812255.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus thioparans] &gt;emb|CAM3726853.1| Cytosolic protein [Mesobacillus thioparans]</Hit_def>
+  <Hit_accession>WP_415812255</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.914</Hsp_bit-score>
+      <Hsp_score>655</Hsp_score>
+      <Hsp_evalue>2.05824e-83</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKRIFSFGRDSKQYINIAEIEISDEVLTTISKFTGGRLKPFYKTDLYRDKRGEKIGVCVEVKQDQAEEFVTEMREEMQELGYLPFICDSEHNKVCISQVSHQFDILKIQQTNGDNYDISNEMVISKLKEWHHRYPFTIIGADLDWVEASFQGIPNGKELRSFATEMYQFCPDIVEQGAGSINGLMEELKESKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M WK++F+FGR  +    + +  IS E L  + +   GR+ PFYK DLY +K  E  G+CVE KQ++AE+ V +++E+++ + YLPFIC+S+  K+ I   S QFDIL++QQTNGDNYDISNE VISKLK+W+ RYPF IIGAD DWVEA+F+  P GK L++FA E+Y+FCPDIVEQG+GSINGL+EE++E++KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_251484657.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus subterraneus] &gt;gb|MCM3666190.1| DUF4253 domain-containing protein [Mesobacillus subterraneus] &gt;gb|MCM3685188.1| DUF4253 domain-containing protein [Mesobacillus subterraneus]</Hit_def>
+  <Hit_accession>WP_251484657</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>4.07629e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNWKKLFGLGKNQVPQENIEKARIELGFSEEVISIIRMHTNSPLQPLNHQDLYTDDSVKTVGISFKTNEGEAEEMVAKLNAEFKRIGYQAFICNHDYEEIGVIKGIDQFDILKIRQTNGDNYDISNEEVIAKLRVWHQRYPFTIIGADYDWVEAKFKVFPENKELKAFADEIYKFCPDIVDQGSGSIDGLIEDMKETKKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKLF  G+++  +  +E++    G S+E ++I++   N  + P    DLYT+   +  GI  +  + +AE++V KL  + K I Y  FIC  D E+IG+I G DQFDIL+++QTNGDNYDISNE+VI+KL+ W++RYPF IIGADYDWVEA F+VFPE K LKAFA EIYKFCPDIV+QGSGSI+GLIE+M+ET+KLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_097160254.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus oleivorans] &gt;gb|MET3698990.1| hypothetical protein [Bacillus oleivorans] &gt;emb|SNX75026.1| uncharacterized protein DUF4253 [Bacillus oleivorans]</Hit_def>
+  <Hit_accession>WP_097160254</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.542</Hsp_bit-score>
+      <Hsp_score>545</Hsp_score>
+      <Hsp_evalue>1.54276e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESD-------REKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MDWKKLFGFGNKHKNEIMSDQIAKEIGFTEEVIHIIKASVSSSLQPLIINELYNEGETRTAGISFMTPEDKAEKVVVDLQSRLKQMGYLVFICERDFGNERKSMCKVGIIKGHDQFEILKVQQTNGDNYDISNEDVSAKLREWNDRYPFNMIGADYDWVEAIFSELPADQQMKSFAQEIYEFCPDVVDQGTETIEALIEEMRRTNKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKLF FG   + E + +Q     G ++E + I+K S++  + P    +LY E      GI     ++KAE++V+ L+ +LK + YL FICE D         K+GII G DQF+IL+VQQTNGDNYDISNE V +KL++W  RYPF +IGADYDWVEA F   P  + +K+FA+EIY+FCPD+V+QG+ +I  LIEEM  T KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_423410151.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Heyndrickxia sp. MSNUG] &gt;gb|XRD18507.1| DUF4253 domain-containing protein [Heyndrickxia sp. MSNUG]</Hit_def>
+  <Hit_accession>WP_423410151</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>6.75447e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVE----QSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK--IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MGWKNIFSFTKSQAKKVNAEELAIQSGFTEEVIIVIKRIAKTDLRSFYSKDLYSEGAAKAIGLFFNTKEETAEGQLYKLQTELKPLGALAFITERENKKASVAIVMGNDQFDILKIQQTNGENYDISNNDVVVKLKEWHKRYCFTIIGADYDWVEVDFSEFPTSNDLRPFAKELYEFCPDIVDQGTGSIDGFIEELKEYRRLVLWWD</Hsp_hseq>
+      <Hsp_midline>M WK +F+F +S+  +   E    QSG ++E + ++KR     +  FY  DLY+E  A+  G+    K+E AE  + KL+ +LK +  L FI E + +K  + I+ G+DQFDIL++QQTNG+NYDISN  V+ KLK+W++RY F IIGADYDWVE +F  FP    L+ FAKE+Y+FCPDIV+QG+GSI+G IEE++E R+L LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_270584780.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus smithii]</Hit_def>
+  <Hit_accession>WP_270584780</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.231</Hsp_bit-score>
+      <Hsp_score>539</Hsp_score>
+      <Hsp_evalue>1.26871e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFI----VEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKKMFGLVKKHKNEIISDEMAKEMGFTQEVLNIIKQVTNNSIQPFNINDLYNDGELRTVGISFVTFEEQAEKLVIELQSQIKQLGYLAFICERSFSQGSKSRCRIGIIKGNDQFDILKIQQTNGDNYEISNEDVISKLREWNNRYPFIIVGADYDWIDANFIVLPTDQEMKSFAQEMYEFCPDIVEQGTGSIEELIEEIKETKKLVLWWD</Hsp_hseq>
+      <Hsp_midline>M  KK+F   +  + E I     ++ G +QE L I+K+  N  I PF   DLY +      GI     +E+AE+LV++L+ Q+K + YL FICE         R +IGII G+DQFDIL++QQTNGDNY+ISNE VISKL++W  RYPFII+GADYDW++ANF V P  + +K+FA+E+Y+FCPDIVEQG+GSI  LIEE++ET+KL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_209751650.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Cohnella suwonensis] &gt;gb|MFC5467271.1| DUF4253 domain-containing protein [Cohnella suwonensis]</Hit_def>
+  <Hit_accession>WP_209751650</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.075</Hsp_bit-score>
+      <Hsp_score>536</Hsp_score>
+      <Hsp_evalue>2.919e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKE---TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE--SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MDWKKFFRFGKNKSDTLNEELVYEMGFSHDAIDIFKQVSNNNYQRLTIKNLDDKGEKDVDGISFSTSNEQAEKIIIELKSKLNPLGCLVFISEQENNRSKIGAIKGNDQFDILKIQQTNGDNYDIGNEDVIDTLKKWNSRYPFDIIGADFDWVEANFKVLPSDKEIKSFAKEIYDFCPDVVEQGAGDIESLIEEIKNSKKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M WKK F FG++K     E +V + G S +A+ I K+  N         +L  +   ++ GI      E+AE+++++LK +L  +  L FI E  ++R KIG I G+DQFDIL++QQTNGDNYDI NE VI  LK W  RYPF IIGAD+DWVEANF+V P  K +K+FAKEIY FCPD+VEQG+G I  LIEE++ ++KLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_118918946.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Neobacillus notoginsengisoli] &gt;gb|RHW43338.1| DUF4253 domain-containing protein [Neobacillus notoginsengisoli]</Hit_def>
+  <Hit_accession>WP_118918946</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>3.62479e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEF----IVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESD-----REKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKSLFGLGEKRKKEIDNDKLVEKLGFSEEVIDRIKEVAATSLQPLEISDLYNYDKKTTVGLSFLTLEEKAERLVVDLQSHIKQLGYLAFINERNYKQGSKSKIGIIKGNDQFELLKILQTNGDNYDISNDDVILKLKQWNNRYPFIIIGADFDWVEAKFTVLPLDREIKSFAKEMYEFCPDVVDQGTGSIEELIEEMKETNKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M +K LF  G  ++ E     +VE+ G S+E +  +K      + P    DLY        G+     +EKAE+LV+ L+  +K + YL FI E +     + KIGII G+DQF++L++ QTNGDNYDISN+ VI KLK W  RYPFIIIGAD+DWVEA F V P  + +K+FAKE+Y+FCPD+V+QG+GSI  LIEEM+ET KLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_423991846.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Mesobacillus sp.] &gt;gb|MGA9226014.1| DUF4253 domain-containing protein [Mesobacillus sp.]</Hit_def>
+  <Hit_accession>WP_423991846</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.453</Hsp_bit-score>
+      <Hsp_score>524</Hsp_score>
+      <Hsp_evalue>2.06015e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVE----QSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE--SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MDWKKLFGLAKNQAKQVNVDELAIQLGFAEETITVIKKAANTNLRPFYQKDLYSDSAEKVIGISFNTTKDSAEGILYKLQSELKPLDCLAFINERGNNSTSVSIVKGNDQFDILEIQQTNGENYDISNDEVVFKLKEWHKRYSFTIIGADHDWVEVDFDEFPRNNDLQPFVKELYELCPDIVDQGPGSIEGFIEELKVYRKLVLWWD</Hsp_hseq>
+      <Hsp_midline>M WKKLF   +++  +  V+    Q G ++E + ++K++ N  + PFY+ DLY++   ++ GI     ++ AE ++ KL+ +LK ++ L FI E  ++   + I+ G+DQFDIL +QQTNG+NYDISN++V+ KLK+W++RY F IIGAD+DWVE +F+ FP    L+ F KE+Y+ CPDIV+QG GSI G IEE++  RKL LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_309534279.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Fredinandcohnia sp. QZ13] &gt;gb|MDR4885989.1| DUF4253 domain-containing protein [Fredinandcohnia sp. QZ13]</Hit_def>
+  <Hit_accession>WP_309534279</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.527</Hsp_bit-score>
+      <Hsp_score>519</Hsp_score>
+      <Hsp_evalue>1.24302e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEF---IVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESD-------REKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKSFFGLGKKHKNEINDEMLKEPGFTQEVLNIIKQVSNNNLQPLKINDLYKDDRIATVGISFMTFEEEAEKLVVELQSKIKHLGYYAFMNERNFIKGNKSKCRIGVLKGTDQFELLKILQTNGDNYDISNDDVISKLKQWNKRYPFSIIGADFDWIEAKFKVLPSDQHIKSFAKEMYEFCPDIVEQGTGSIEELIEEIKDTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M  K  F  G+  + E    ++++ G +QE L I+K+  N  + P    DLY +      GI     +E+AE+LV++L+ ++K + Y  F+ E +       + +IG++ G+DQF++L++ QTNGDNYDISN+ VISKLK W +RYPF IIGAD+DW+EA F+V P  + +K+FAKE+Y+FCPDIVEQG+GSI  LIEE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_335377436.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. JJ1122] &gt;gb|MEH7443509.1| DUF4253 domain-containing protein [Bacillus sp. JJ1122]</Hit_def>
+  <Hit_accession>WP_335377436</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>4.98424e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVE----QSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE--SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MGWKELFSFAKNEAKQVNAEELAVQSGFVEEVIKVIKSAANTDIQPFYYKDLHSEGAAKAIGLSFNTKEETAEGQLYKLKTELKPLGALAFITERKNKTASVAIVMGNDQFDIIKIQQTNGENYDISNIEVIVKLKEWHNRYSFTIIGANHDWVEADFIELPNSKDLKSFAKEIYQFCPDIVDQGTGSLEGLIEELEESKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M WK+LF+F +++  +   E    QSG  +E + ++K + N  I PFY  DL++E  A+  G+    K+E AE  + KLK +LK +  L FI E  +    + I+ G+DQFDI+++QQTNG+NYDISN +VI KLK+W+ RY F IIGA++DWVEA+F   P  K LK+FAKEIY+FCPDIV+QG+GS+ GLIEE+EE++KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_372660771.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Cohnella sp.]</Hit_def>
+  <Hit_accession>WP_372660771</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.823</Hsp_bit-score>
+      <Hsp_score>499</Hsp_score>
+      <Hsp_evalue>1.3492e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKE----TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MDWKRIFGLGKKRENKTLSDEVAEEMGFSRNVLDIIKQISNANLQRLTVRN--DEGEIEIDGISFFTFNEDDEKLIIELQSKLKPLECIVFFNDQEHCKVGIIKGQDQFEILKIQQTNGDNYDIGNKEVIAKLKKWNSRFPFDIIGADFDWVEANFKVMPDDNEIRSFAQEIYDFCPDIVDQGTGSIESLIEEIKKSKKLYLWWD</Hsp_hseq>
+      <Hsp_midline>M WK++F  G+ +E    ++ + E+ G S+  L I+K+  N  +      +   E   EI GI      E  E+L+++L+ +LK +  + F  + +  K+GII G DQF+IL++QQTNGDNYDI N++VI+KLK W  R+PF IIGAD+DWVEANF+V P+   +++FA+EIY FCPDIV+QG+GSI  LIEE+++++KLYLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_412897789.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus jepli] &gt;gb|MFS0823222.1| DUF4253 domain-containing protein [Bacillus jepli]</Hit_def>
+  <Hit_accession>WP_412897789</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>5.22592e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEF---IVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESD-------REKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKIFFGLGKKHKNEINDEIVKEPGFTQEVLNIIKQVSNNNLQPLKINDLYNEDGITTVGISFMTLEEKAEKLVVELQSKIKHLGYYAFINERNFIKGNNSKCRIGVLKGTDQFELLKILQTNGDNYDISNDDVISKLKQWNKRYPFSIIGADFDWIEAEFLVLPSDQHIQSFAKEMYEFCPDIVEQGTGSIEELIEEIKETKKFYLWWD</Hsp_hseq>
+      <Hsp_midline>M  K  F  G+  + E    IV++ G +QE L I+K+  N  + P    DLY E      GI     +EKAE+LV++L+ ++K + Y  FI E +       + +IG++ G+DQF++L++ QTNGDNYDISN+ VISKLK W +RYPF IIGAD+DW+EA F V P  + +++FAKE+Y+FCPDIVEQG+GSI  LIEE++ET+K YLWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_423097662.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MFZ7803440.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MGX5388702.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_423097662</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>7.76662e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQATNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSECTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEIQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K++ N  I PFY  D      ++I G+     ++ AEQ V+KL+ ++K + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_144596906.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus]</Hit_def>
+  <Hit_accession>WP_144596906</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>9.24697e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|WP_305925862.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|WLP63189.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_305925862</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.25485e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQ----SGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKELGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSECTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ ++K + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_088022807.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MEC2864981.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MGX5477049.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|OTZ73102.1| cytoplasmic protein [Bacillus thuringiensis serovar kyushuensis] &gt;gb|OTZ79547.1| cytoplasmic protein [Bacillus thuringiensis serovar tohokuensis] &gt;gb|OUB92807.1| cytoplasmic protein [Bacillus thuringiensis serovar indiana]</Hit_def>
+  <Hit_accession>WP_088022807</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.46179e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ ++K + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_242283163.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|MCI3148543.1| cytoplasmic protein [Bacillus cereus] &gt;gb|MGE7724406.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MGN4846815.1| DUF4253 domain-containing protein [Bacillus cereus group sp. MYBK134-2] &gt;gb|MGN4858701.1| DUF4253 domain-containing protein [Bacillus cereus group sp. MYBK134-1] &gt;gb|XQX00253.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_242283163</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.61251e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDIIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKETKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  +I KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE++ET+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_423117086.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MDA1664397.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MDA1767266.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MFZ7932747.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MFZ7949794.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;tpg|HEB2430974.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_423117086</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.61251e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSECTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ ++K + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>tpg|HEQ3527563.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>HEQ3527563</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>2.66266e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILKVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYKFCPDIVEQGTESIEELVQEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+YKFCPDIVEQG+ SI  L++E+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|MED2765334.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>MED2765334</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>2.96937e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQATNSSIQPFYATD----SKSKIAGVSFVTFEDYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K++ N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>tpg|HEF1852448.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;tpg|HEF1864923.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;tpg|HEF1875409.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;tpg|HEF1881501.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>HEF1852448</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>3.20486e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNLDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_445117311.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MGQ4704894.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_445117311</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>3.27551e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEKMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_340944070.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. FSL L8-0152]</Hit_def>
+  <Hit_accession>WP_340944070</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>3.73333e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNSKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M  KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ ++K + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_423115157.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MFZ7757707.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_423115157</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>3.98571e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFIQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_001009615.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;tpg|HCX50043.1| DUF4253 domain-containing protein [Bacillus sp. (in: firmicutes)] &gt;gb|AAP11218.1| hypothetical Cytosolic Protein [Bacillus cereus ATCC 14579] &gt;gb|ACK63565.1| conserved hypothetical protein [Bacillus cereus B4264] &gt;gb|ASI85414.1| putative Cytosolic Protein [Bacillus cereus] &gt;gb|AVR34233.1| putative Cytosolic Protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_001009615</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>4.07357e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_336455800.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|MFI2799329.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MGN4693190.1| DUF4253 domain-containing protein [Bacillus cereus group sp. MYBK185-1] &gt;gb|MHA4086228.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_336455800</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>4.25514e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFEDSAEQQVIKLQSKVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_098976250.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|MHA7106898.1| DUF4253 domain-containing protein [Bacillus sp. C-3-6] &gt;gb|PGW47071.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098976250</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>5.06605e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_098841904.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|MES9781477.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MHA4244201.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|PGK80701.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098841904</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>5.17772e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNSKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSECTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M  KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ ++K + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>ref|WP_110497084.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. 196mf] &gt;gb|PYE93078.1| uncharacterized protein DUF4253 [Bacillus sp. 196mf]</Hit_def>
+  <Hit_accession>WP_110497084</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>6.94981e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTTQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL  QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_089171771.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|ASL67088.1| putative Cytosolic Protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_089171771</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>7.103e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNKLISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFEDSAEQQVIKLQSEVKKLGYLAFICERSFSQGSKSQCTIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ + I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     ++ AEQ V+KL+ ++K + YL FICE    +       I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>ref|WP_168410214.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|NKX10280.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_168410214</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>7.18086e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVTKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>ref|WP_075719067.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|MBJ8122935.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MBJ9979827.1| DUF4253 domain-containing protein [Bacillus sp. S29] &gt;gb|MBK0101006.1| DUF4253 domain-containing protein [Bacillus sp. S70] &gt;gb|MBK0105624.1| DUF4253 domain-containing protein [Bacillus sp. S73] &gt;gb|MBK0134454.1| DUF4253 domain-containing protein [Bacillus sp. S72]</Hit_def>
+  <Hit_accession>WP_075719067</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>8.00795e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M  KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>ref|WP_335436463.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MEH7423079.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_335436463</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.3367e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGFLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + +L FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>ref|WP_163093003.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_163093003</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.47449e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNLKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDIIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M  KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  +I KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>ref|WP_088859632.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|ASI74547.1| cytoplasmic protein [Bacillus cereus] &gt;gb|MDZ4554240.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MGN4459098.1| DUF4253 domain-containing protein [Bacillus cereus group sp. MYBK57-1] &gt;gb|MGX5542732.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|XUZ80958.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_088859632</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.50699e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSTEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++  EQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>ref|WP_197234402.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MBG9614262.1| cytoplasmic protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_197234402</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.50699e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFTQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++F +E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>ref|WP_090977052.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;tpg|HFK1807497.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MEH7891347.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PER37667.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PGL20505.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PGQ61726.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_090977052</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.83369e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWN</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gb|MDA1564987.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>MDA1564987</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.85379e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGINYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVKEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L++E+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gb|MGG8379923.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. R-CC1]</Hit_def>
+  <Hit_accession>MGG8379923</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>1.95225e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDIIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>+KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  +I KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>ref|WP_231009382.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MCD2337549.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_231009382</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.57087e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATDSKSKRA----GVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D  +++     G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>ref|WP_065485290.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|ANS50232.1| hypothetical protein BT246_48970 [Bacillus thuringiensis] &gt;gb|MBH0339940.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_065485290</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.71487e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNSQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>ref|WP_086386130.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|MRC94661.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MBR9670601.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MEB8569154.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MEC3433860.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MRD40424.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_086386130</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.7747e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDIIFKLRKWNDRYPFIITGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  +I KL+ W  RYPFII GAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gb|MDA2176715.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>MDA2176715</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>3.40363e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>ref|WP_049107966.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|KXY24924.1| cytoplasmic protein [Bacillus cereus] &gt;gb|MCO4216096.1| DUF4253 domain-containing protein [Bacillus sp. 10017] &gt;gb|MFJ7581668.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MFJ7612544.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;tpg|HGG0585510.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_049107966</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>4.19856e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----STSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPGIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCP IVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>ref|WP_001009613.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|AEA17986.1| putative cytoplasmic protein [Bacillus thuringiensis serovar chinensis CT-43] &gt;gb|AFV20130.1| hypothetical protein BTB_c44490 [Bacillus thuringiensis Bt407] &gt;gb|AGG03106.1| hypothetical protein H175_ch4394 [Bacillus thuringiensis serovar thuringiensis str. IS5056] &gt;gb|ANC09730.1| cytoplasmic protein [Bacillus cereus] &gt;gb|ANC15548.1| cytoplasmic protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_001009613</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>4.38566e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQATNSSIQPFYATD----SKSKIAGVSFVTFEDYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K++ N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>ref|WP_258131324.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|MEW4068747.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MGQ7303689.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MGX5487435.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|WXK70653.1| DUF4253 domain-containing protein [Bacillus sp. PPSBB_2]</Hit_def>
+  <Hit_accession>WP_258131324</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>4.6313e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCSDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FC DIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>ref|WP_368969356.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MEX5518437.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_368969356</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>4.6313e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQSFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I  FY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>ref|WP_434164783.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_434164783</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>5.69694e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTDSSIQPFYA----TDSKSKIAGVSFVTFEDYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAIIQGNGQFDILTIQQTNGVNYEVSNKDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVAEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  +  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I II G+ QFDIL +QQTNG NY++SN+ VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG+ SI  L+ E+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>ref|WP_023523068.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|AHA73916.1| hypothetical protein YBT1518_23980 [Bacillus thuringiensis YBT-1518] &gt;gb|EKS8361941.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|EKS8368339.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MBG9482831.1| cytoplasmic protein [Bacillus thuringiensis] &gt;gb|MBG9495010.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_023523068</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>6.1486e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>ref|WP_335466006.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MEH7042575.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_335466006</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>6.35296e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEISNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTTQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE   ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL  QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>ref|WP_223617753.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MBZ3762577.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_223617753</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>6.42259e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDRE-------KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICEKSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE           +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>ref|WP_139848818.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|UDW02429.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_139848818</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>6.49297e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQRTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQ + SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>ref|WP_078401052.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|OPA12754.1| cytoplasmic protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_078401052</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>7.24065e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDVIFSALPTDEEMQSFTQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+  F   P  + +++F +E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>tpg|HDR4552192.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>HDR4552192</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>7.40022e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQCEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWN</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWW+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>ref|WP_340782685.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. CH_442] &gt;tpg|HDR7542753.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_340782685</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>8.16291e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDREK-------IGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECTIAITQENDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE    +       I I   +DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>ref|WP_016098973.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|AUB65391.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|EOP83925.1| cytoplasmic protein [Bacillus cereus HuB4-4] &gt;gb|EPF14167.1| cytoplasmic protein [Bacillus cereus BAG1O-3] &gt;gb|KAB2368613.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|KXX96572.1| cytoplasmic protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_016098973</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>9.48095e-57</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDIHTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY     TE  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>ref|WP_375363610.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MFB5565117.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_375363610</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>1.09558e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDIIFKLRKWNDRYPFIITGADHDWVDAIFSALPTDEEMQSFTQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  +I KL+ W  RYPFII GAD+DWV+A F   P  + +++F +E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gb|MED3475134.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MED3630469.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>MED3475134</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>2.03905e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIAEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDI EQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>ref|WP_440605124.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. 22475] &gt;gb|MGN7891495.1| DUF4253 domain-containing protein [Bacillus sp. 22475]</Hit_def>
+  <Hit_accession>WP_440605124</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.19809e-56</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>SEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>+E I ++ G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>ref|WP_098380168.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PFB43352.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098380168</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>2.34238e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYAI----ESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDIHTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY +    E  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>ref|WP_098377004.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PEV92060.1| cytoplasmic protein [Bacillus thuringiensis] &gt;gb|PFK98647.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098377004</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.5915e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIEQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++++  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>ref|WP_144469311.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_144469311</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>3.28367e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIVITQGNDQFDIHTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY     TE  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>ref|WP_098391045.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PFE96690.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098391045</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>3.59362e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSIIQPFYATD----SKSKIAGVSFVTFEDYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>ref|WP_098360858.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;tpg|HGE7608969.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|PEW49983.1| cytoplasmic protein [Bacillus thuringiensis] &gt;gb|PFA09547.1| cytoplasmic protein [Bacillus thuringiensis] &gt;gb|PFK08498.1| cytoplasmic protein [Bacillus thuringiensis] &gt;gb|PFN56267.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098360858</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>4.40684e-56</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDIHTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKNLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY     TE  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+ L+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>ref|WP_043936247.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|KIQ87920.1| cytoplasmic protein [Bacillus sp. L_1B0_5] &gt;gb|KIQ89186.1| cytoplasmic protein [Bacillus sp. L_1B0_8] &gt;gb|PQQ46619.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_043936247</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>8.04882e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGVIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNMDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+    + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gb|MCU5127889.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MED3357490.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>MCU5127889</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>1.42941e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDIHTIQQTNCVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY     TE  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTN  NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>ref|WP_000965095.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|EJS53620.1| hypothetical protein ICE_03555 [Bacillus cereus BAG1X1-2]</Hit_def>
+  <Hit_accession>WP_000965095</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.59394e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQSG----ISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIRFSQEILNVIKQVTNSSIQPFYA----TESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDIHTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+       SQE L ++K+  N  I PFY     TE  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>ref|WP_029443318.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|KMQ09526.1| cytoplasmic protein [Bacillus cereus] &gt;gb|MCA1002904.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MCQ6332298.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MCU7674510.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MDA1770570.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_029443318</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.65214e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGVIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+    + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gb|MED2802638.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>MED2802638</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>2.55457e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGVIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWDDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+    + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>ref|WP_454432240.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|MGX5634009.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_454432240</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>3.90703e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFIRERSFSQGSKSECRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FI E      S  E +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>ref|WP_098629356.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|MGR9590767.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PFX73674.1| cytoplasmic protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_098629356</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>4.12576e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGVIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSIIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +KK+    + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>ref|WP_098311709.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PER49037.1| cytoplasmic protein [Bacillus thuringiensis] &gt;tpg|HDX9532137.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098311709</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>6.15351e-55</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TESKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDIHTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFLRWD</Hsp_hseq>
+      <Hsp_midline>++K+  F + ++ E I E+     G SQE L ++K+  N  I PFY     TE  ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDI  +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+L WD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>ref|WP_346749464.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group]</Hit_def>
+  <Hit_accession>WP_346749464</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>6.97899e-55</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>SEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>+E I ++ G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>ref|WP_001009614.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|KXY62508.1| cytoplasmic protein [Bacillus cereus] &gt;gb|EEM94494.1| Hypothetical Cytosolic Protein [Bacillus thuringiensis IBL 200] &gt;gb|KAB2378453.1| DUF4253 domain-containing protein [Bacillus sp. RM2(2019)] &gt;gb|MBK5493786.1| DUF4253 domain-containing protein [Bacillus sp. TH13] &gt;gb|MCR6782339.1| DUF4253 domain-containing protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_001009614</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>1.81518e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTDSSIQPFY----VTDSKSKIAGVSFVTFEDYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAIIQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIMIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVTEIKKTKKLFLRWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  +  I PFY     T+  ++I G+     ++ AEQ V+KL+ +++ + YL FICE         + +I II G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFI+IGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG+ SI  L+ E+++T+KL+L WD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>ref|WP_050844530.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|AKR11198.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_050844530</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>2.0314e-54</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>SEEIRKEIGFSQEILNVIKQVTNSSIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKVQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>+E I ++ G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+K++ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>ref|WP_046392995.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus] &gt;gb|AKE18616.1| hypothetical protein FORC5_4079 [Bacillus cereus] &gt;gb|MCU5332511.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MDR4152621.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MEB9933381.1| DUF4253 domain-containing protein [Bacillus cereus] &gt;gb|MEB9955934.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_046392995</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.726</Hsp_bit-score>
+      <Hsp_score>465</Hsp_score>
+      <Hsp_evalue>2.26502e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>205</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE------SDRE-KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYL</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFEDSAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSECRIAITQGNDQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSALPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVEEIKKTKKLFL</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  N  I PFY  D      ++I G+     ++ AEQ V+KL+ +++ + YL FICE      S  E +I I  G+DQFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F   P  + +++FA+E+Y+FCPDIVEQG+ SI  L+EE+++T+KL+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gb|MGE0991747.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus sp. GMa5/2]</Hit_def>
+  <Hit_accession>MGE0991747</Hit_accession>
+  <Hit_len>210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>183.341</Hsp_bit-score>
+      <Hsp_score>464</Hsp_score>
+      <Hsp_evalue>2.73636e-54</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>WKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>FQKILGVIKKQKNELISEEIRKEIGFSQEILNVIKQVTNSIIQPFYA----TDSKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGIESIEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>++K+    + ++ E I E+     G SQE L ++K+  N  I PFY     T+  ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG  SI  L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>ref|WP_098987154.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;gb|PGX80748.1| cytoplasmic protein [Bacillus thuringiensis]</Hit_def>
+  <Hit_accession>WP_098987154</Hit_accession>
+  <Hit_len>208</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.956</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>3.64474e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKETEFIVEQS----GISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MNFKKILGFIKKQKNELISEEIRKEIGFSQEILNVIKQVTDSSIQPFY----VTDSKSKIAGVSFVTFEDYAEQQVIRLQSEVQKLGYLAFICERSFSQGSKSKCRIAIIQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIMIGADHDWVDAIFSVLPTDEEMQSFAQEMYEFCPDIVEQGTESIEELVTEIKKTKKLFLRWD</Hsp_hseq>
+      <Hsp_midline>M +KK+  F + ++ E I E+     G SQE L ++K+  +  I PFY     T+  ++I G+     ++ AEQ V++L+ +++ + YL FICE         + +I II G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFI+IGAD+DWV+A F V P  + +++FA+E+Y+FCPDIVEQG+ SI  L+ E+++T+KL+L WD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>ref|WP_106532551.1|</Hit_id>
+  <Hit_def>DUF4253 domain-containing protein [Planomicrobium soli] &gt;gb|PSL41042.1| uncharacterized protein DUF4253 [Planomicrobium soli]</Hit_def>
+  <Hit_accession>WP_106532551</Hit_accession>
+  <Hit_len>207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>182.57</Hsp_bit-score>
+      <Hsp_score>462</Hsp_score>
+      <Hsp_evalue>5.46302e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>208</Hsp_align-len>
+      <Hsp_qseq>MIWKKLFNFGRSKE--TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICESDRE-----KIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>MGFRRFFGLGKKTEKISDGLIKELGFEDKVVRIIKQVAPAGLQPLNISNLEND-LVETVGISFSISEEKSEEVVLKLQSQFHQTGYLVFINERNFNFNSECRIGIIKGSDQFDILKVVQTNGENYDISNQEVISRLMQWNNRYPFTIVGADYDWVEAIFIEEIQNNEIESFAHEMYEFCPDIVDQGTESIDGLIEELKNTNKLFLWWD</Hsp_hseq>
+      <Hsp_midline>M +++ F  G+  E  ++ ++++ G   + + I+K+     + P    +L  +   E  GI     +EK+E++VLKL+ Q     YL FI E +       +IGII GSDQFDIL+V QTNG+NYDISN++VIS+L  W  RYPF I+GADYDWVEA F    +   +++FA E+Y+FCPDIV+QG+ SI+GLIEE++ T KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>ref|WP_141553212.1|</Hit_id>
+  <Hit_def>MULTISPECIES: DUF4253 domain-containing protein [Bacillus cereus group] &gt;gb|MFB6585205.1| DUF4253 domain-containing protein [Bacillus thuringiensis] &gt;tpg|HDR4535227.1| DUF4253 domain-containing protein [Bacillus cereus]</Hit_def>
+  <Hit_accession>WP_141553212</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>5.78471e-54</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>TEFIVEQSGISQEALAIVKRSINGRIHPFYKVDLYTEKPAEITGICVEAKQEKAEQLVLKLKEQLKSINYLPFICE-------SDREKIGIIPGSDQFDILRVQQTNGDNYDISNEKVISKLKDWYRRYPFIIIGADYDWVEANFEVFPEGKALKAFAKEIYKFCPDIVEQGSGSINGLIEEMEETRKLYLWWD</Hsp_qseq>
+      <Hsp_hseq>SEEIRKEIGFSQEILNVIKQVTNSSIQPFYATD----SKSKIAGVSFVTFENYAEQQVIKLQSEVQKLGYLAFICERSFSQGSKSKCRIAITQGNGQFDILTIQQTNGVNYEVSNIDVIFKLRKWNDRYPFIIIGADHDWVDAIFSVLPTDEEMQSFAQETYEFCPDIVEQGIESTEELVEEIKKTKKLFLWWD</Hsp_hseq>
+      <Hsp_midline>+E I ++ G SQE L ++K+  N  I PFY  D      ++I G+     +  AEQ V+KL+ +++ + YL FICE         + +I I  G+ QFDIL +QQTNG NY++SN  VI KL+ W  RYPFIIIGAD+DWV+A F V P  + +++FA+E Y+FCPDIVEQG  S   L+EE+++T+KL+LWWD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>992672285</Statistics_db-num>
+      <Statistics_db-len>377385951225</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
