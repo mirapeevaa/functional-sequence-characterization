@@ -1,13 +1,36 @@
-# Functional Sequence Characterization
+# In-Silico Functional Characterization of a Hypothetical Bacterial Protein
 
-This project performs an in-silico functional characterization of a hypothetical bacterial protein using a single continuous bioinformatics pipeline.
+## Overview
+This project demonstrates a complete bioinformatics pipeline for the functional characterization of an unannotated protein sequence using computational methods.
 
-## Pipeline Steps
-1. Sequence retrieval
-2. Sequence quality analysis
-3. Sequence filtering & validation
-4. Homology search (BLAST)
-5. Functional annotation
-6. Biological interpretation
+The workflow mirrors standard approaches used in biological research, including sequence validation, homology searching, and functional inference.
 
-Each step is documented and executed in a dedicated Jupyter notebook.
+## Dataset
+- Organism: Mesobacillus selenatarsenatis
+- Protein length: 201 amino acids
+- Annotation status: Hypothetical protein
+
+## Methods
+- Sequence parsing and analysis using Biopython
+- Sequence quality assessment and validation
+- Homology search using BLASTP
+- Functional annotation based on conserved domains (DUF4253)
+- Biological interpretation and limitations analysis
+
+## Key Findings
+- The protein is highly conserved across multiple bacterial species
+- Strong BLAST homology indicates membership in the DUF4253 protein family
+- While the exact function remains unknown, conservation suggests an important biological role
+
+## Limitations
+This analysis is based solely on sequence similarity and does not include experimental validation.
+
+## Technologies
+- Python
+- Biopython
+- NCBI BLAST
+- Jupyter Notebooks
+
+## Author
+Mira T. Peeva
+
